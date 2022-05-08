@@ -1,0 +1,52 @@
+.about-body {
+    display: flex;
+}
+
+.about-body p {
+    padding: 2rem;
+    font-family: cursive;
+    font-size: 22px;
+    color: black;
+    
+}
+
+.about-why-img {
+    padding: 2rem;
+    width: 30rem;
+}
+
+.about-what-img {
+    padding: 2rem;
+    width: 30rem;
+}
+
+.what-body {
+    display: flex;
+}
+
+.what-body p {
+    padding: 2rem;
+    font-family: cursive;
+    font-size: 22px;
+    color: black;
+}
+
+.title-about {
+    background-color: rgba(212, 185, 224, 0.562);
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 1rem;
+    font-size: 22px;
+    border-radius: 0.5rem;
+    box-shadow: 2px 5px #88888841;
+}
+
+.title-product {
+    background-color:rgba(212, 185, 224, 0.562);
+    margin-left: 15rem;
+    margin-right: 15rem;
+    font-size: 22px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 5px #88888846;
+}

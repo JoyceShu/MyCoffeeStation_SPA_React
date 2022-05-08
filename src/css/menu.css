@@ -1,0 +1,59 @@
+.menubar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content:space-evenly;
+}
+
+.menu > li{
+    padding: 0 1rem;
+    width: auto;
+    position: relative; 
+ }
+
+ .menu a {
+    padding: 0.5rem;
+}
+
+.menu a:hover {
+    background-color: powderblue;
+    color: white;
+
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    background-color: rgba(212, 185, 224, 0.562);
+    transition: max-height 1s;
+}
+
+.submenu a {
+    display: inline-block;
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+}
+
+.submenu a:hover {
+    background-color: powderblue;
+}
+
+.menu > li:focus-within .submenu,
+.menu > li:hover .submenu {
+    max-height: 90vh;
+    visibility: visible;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.menu button {
+    background-color: inherit;
+    border: 0;
+    font: inherit;
+}
